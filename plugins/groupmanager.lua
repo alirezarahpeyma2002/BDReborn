@@ -9,7 +9,7 @@ else
      return 'شما مدیر ربات نمیباشید'
     end
 end
-    local data = load_data(_config.moderation.data)
+    local data = load_data(_config.moderation.data)p
   if data[tostring(msg.to.id)] then
 if not lang then
    return '_Group is already added_'
